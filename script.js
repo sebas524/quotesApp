@@ -37,7 +37,7 @@ const Quote = () => {
   quote.textContent = quoteFromApi.text;
   //   * if null data:
   if (quoteFromApi.author === null) {
-    return (author.textContent = "unknown");
+    author.textContent = "unknown";
   } else {
     author.textContent = quoteFromApi.author;
   }
